@@ -1,0 +1,14 @@
+This project is intended to provide a secure and simple Bitcoin savings account.
+
+The main idea is that the device will generate a Bitcoin public-private address pair.  Users can transfer money to the public key as a vault.  Once a user wants to transfer money out of the vault, the arduino running this project code can generate a transaction from the following inputs
+
+*destination address
+*private key for source address
+*amount of bitcoins to transfer
+
+The resulting [https://en.bitcoin.it/wiki/Transaction](transaction) is signed and ready to broadcast to the bitcoin mining network to verify/accept.
+
+This device will add an additional layer of security by removing the private key for a savings account from computer access.  Any viruses or trojans on the computer would not be able to steal account details by monitoring keystrokes, hard drive files, or RAM.
+
+
+Implementation details are still being worked out and more will be added here as these details are determined.
