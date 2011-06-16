@@ -6,9 +6,14 @@ The main idea is that the device will generate a Bitcoin public-private address 
 *private key for source address
 *amount of bitcoins to transfer
 
-The resulting [https://en.bitcoin.it/wiki/Transaction](transaction) is signed and ready to broadcast to the bitcoin mining network to verify/accept.
+The resulting transaction is signed and ready to broadcast to the bitcoin mining network to verify/accept.
 
 This device will add an additional layer of security by removing the private key for a savings account from computer access.  Any viruses or trojans on the computer would not be able to steal account details by monitoring keystrokes, hard drive files, or RAM.
 
 
 Implementation details are still being worked out and more will be added here as these details are determined.
+
+
+References:
+
+Bitcoin transaction objects: https://en.bitcoin.it/wiki/Transaction
